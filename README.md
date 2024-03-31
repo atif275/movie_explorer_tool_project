@@ -64,11 +64,11 @@ streamlit run main.py
 
 ```
 5. Navigate to:
-```bash
+
   URL: http://0.0.0.0:8501
   You can now view your Streamlit app in your browser.
 
-```
+
 
 
 2.The web app will open in your browser.
