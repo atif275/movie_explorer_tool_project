@@ -9,7 +9,7 @@
 - Construct an embedding vector using OpenAI's embeddings and leverage FAISS, a powerful similarity search library, to enable swift and effective retrieval of relevant information
 - Interact with the LLM's (Chatgpt) by inputting queries and receiving answers along with source URLs.
 
-
+### Option 1: Running Directly on Local Machine
 ## Installation
 
 1.Clone this repository to your local machine using:
@@ -39,6 +39,37 @@
 streamlit run main.py
 
 ```
+### Option 2: Running on Docker 
+## Installation
+
+1.Clone this repository to your local machine using:
+
+```bash
+  git clone https://github.com/atif275/movie_explorer_tool_project.git
+```
+2.Navigate to the project directory:
+
+```bash
+  cd movie_explorer_tool_project
+```
+3. Build the Docker image (docker should be runnng on your machine):
+
+```bash
+  docker build -t atifbot-movie-explorer .
+```
+4. Run the Docker image:
+
+```bash
+  docker run -p 8501:8501 atifbot-movie-explorer
+
+```
+5. Navigate to:
+```bash
+  URL: http://0.0.0.0:8501
+  You can now view your Streamlit app in your browser.
+
+```
+
 
 2.The web app will open in your browser.
 
