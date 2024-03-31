@@ -65,7 +65,7 @@ streamlit run main.py
 ```
 5. Navigate to:
 
-  URL: http://0.0.0.0:8501
+  URL: http://0.0.0.0:8501 <br/>
   You can now view your Streamlit app in your browser.
 
 
